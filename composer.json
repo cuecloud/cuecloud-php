@@ -1,0 +1,22 @@
+{
+    "name": "cuecloud/cuecloud-php",
+    "description": "PHP client for the CueCloud API",
+    "license": "MIT License",
+    "authors": [
+        {
+            "name": "Miguel Molina",
+            "email": "mmolina@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "CueCloud\\API\\": "src/"
+        }
+    }
+}
