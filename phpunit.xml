@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="tests/bootstrap.php" colors="true">
+    <php>
+        <var name="API_KEY" value="42cef2c79a984e34" />
+        <var name="API_PASS" value="2152b0f3cc1649fb" />
+        <var name="API_VERSION" value="v1.0" />
+        <var name="API_URL" value="https://cuecloud.com/api/" />
+        <var name="CC_LAST_FOUR" value="1111" />
+        <var name="PAY_AMOUNT" value="10.24" />
+        <var name="NUM_OPS" value="4" />
+        <var name="CUECLOUD_FEE" value="0.10" />
+    </php>
+</phpunit>
