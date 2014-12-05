@@ -390,7 +390,6 @@ class Client
     /**
      * Submit the CueCompletion data, though in production the method will block
      * any requests without an HTTP_REFERER.
-     * status.
      *
      * @param string  $assignmentId   The assigment ID
      * @param string  $answerText     The answer text
